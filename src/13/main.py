@@ -23,7 +23,7 @@ print(min_wait * bus)
 
 # Part 2
 # Chinese remainder theorem gives us a 
-# common reminder of all numbers
+# common remainder of all numbers
 def chinese_remainder(n, a):
     sum = 0
     prod = reduce(lambda a, b: a*b, n)
